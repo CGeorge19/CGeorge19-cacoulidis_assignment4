@@ -44,7 +44,7 @@ public class DuplicateRemover
     // write results to a file
     public void write(String outputFile)
     {
-        // try to instantiate the Formatter class pointing to outFile relative path
+        // try to instantiate the Formatter class pointing to outputFile relative path
         try (Formatter output = new Formatter(outputFile))
         {
             // some pretty formatting gets written to the file

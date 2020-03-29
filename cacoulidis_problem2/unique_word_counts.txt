@@ -1,0 +1,3 @@
+There are 6 distinct words in your file.
+
+[ Five : 1   boxing : 2   wizards : 1   jumped : 1   Jumped : 1   over. : 1  ]
