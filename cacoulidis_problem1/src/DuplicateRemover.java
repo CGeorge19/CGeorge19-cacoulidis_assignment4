@@ -42,10 +42,10 @@ public class DuplicateRemover
 
     // instance method write
     // write results to a file
-    public void write(String outFile)
+    public void write(String outputFile)
     {
         // try to instantiate the Formatter class pointing to outFile relative path
-        try (Formatter output = new Formatter(outFile))
+        try (Formatter output = new Formatter(outputFile))
         {
             // some pretty formatting gets written to the file
             output.format("The unique words in your file are: \n\n");
@@ -56,6 +56,7 @@ public class DuplicateRemover
             {
                 output.format(" %s,", value);
             }
+            
             // some more nice formatting
             output.format("]");
             // immediately write things w/ flush
