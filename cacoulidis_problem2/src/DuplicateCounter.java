@@ -41,10 +41,10 @@ public class DuplicateCounter
 
     // instance method write
     // write results to a file
-    public void write(String outFile)
+    public void write(String outputFile)
     {
         // try to instantiate the Formatter class pointing to outFile relative path
-        try (Formatter output = new Formatter(outFile))
+        try (Formatter output = new Formatter(outputFile))
         {
             // some pretty formatting gets written to the file
             output.format("There are %d distinct words in your file.\n\n", wordCounter.size());
